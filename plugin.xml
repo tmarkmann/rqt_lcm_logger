@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="LCM-Logger" type="rqt_lcm_logger.logger.Logger" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to start lcm-logger.
+    </description>
+    <qtgui>
+      <group>
+        <label>Logging</label>
+      </group>
+      <label>LCM-Logger</label>
+      <icon type="theme">applications-other</icon>
+      <statustip>A Python GUI plugin to start lcm-logger.</statustip>
+    </qtgui>
+  </class>
+</library>
