@@ -97,7 +97,6 @@ class LoggerWidget(QWidget):
             QProcess.Running: 'Running',
         }
         state_name = states[state]
-        self.message(f"State changed: {state_name}")
 
     def process_finished(self):
         self.message("Recording finished.")
